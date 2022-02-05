@@ -83,7 +83,7 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 어플리케이션의 Entity Diagram으로 Spring 도메인 관점으로 본 것이다. 각 Entity의 속성, 연관관계를 확인할 수 있다. 모두 JPA를 사용하여 H2-Database에 CRUD 방식을 적용하는 형식으로 구현하였다.
 
-
+Image 출처 : [김영한 JPA 활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard)
 
 ------
 
