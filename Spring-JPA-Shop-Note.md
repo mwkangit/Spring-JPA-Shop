@@ -2,7 +2,7 @@
 
 
 
-![practice function](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/practice function.png)
+![practice function](https://user-images.githubusercontent.com/79822924/152636346-656d0807-9d85-44be-8e88-abf73cf6bd79.png)
 
 - ## 기능
 
@@ -42,7 +42,7 @@
 
 
 
-![Domain & Table](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/Domain & Table.png)
+![Domain   Table](https://user-images.githubusercontent.com/79822924/152636371-62595cd0-1b33-4532-9557-524515ed79b5.png)
 
 - #### 주문과 상품은 N : N 관계이지만 관계형 데이터베이스와 엔티티에서는 N : N 관계는 사용하지 않으므로 1 : N, N : 1 로 나누어서 표현한다.
 
@@ -52,7 +52,7 @@
 
 
 
-![Entity Analysis](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/Entity Analysis.png)
+![Entity Analysis](https://user-images.githubusercontent.com/79822924/152636350-bcfd6910-b316-40f2-9b9a-f3920bd06901.png)
 
 - #### 각 엔티티를 객체화하여 다른 엔티티에서 사용하는 경우가 표현되어 있다.
 
@@ -62,7 +62,7 @@
 
 
 
-![Table Analysis](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/Table Analysis.png)
+![Table Analysis](https://user-images.githubusercontent.com/79822924/152636353-f821fb57-fa89-4ed1-9598-2915bbfff0df.png)
 
 - #### CITY, STREET, ZIPCODE는 MEMBER, DELIVERY 테이블에 모두 속하며 값이 변경되면 안돼므로 embedded 타입으로 작성한다.
 
@@ -288,7 +288,7 @@ public class Category {
 
 # Application Architecture
 
-![Application Architecture](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.24/Application Architecture.png)
+![Application Architecture](https://user-images.githubusercontent.com/79822924/152636380-8b5ea6ce-d049-453f-bf0f-69836cec13af.png)
 
 - #### Controller, Web : 웹 계층
 
@@ -1793,7 +1793,7 @@ void update(Item itemParam) { //itemParam: 파리미터로 넘어온 준영속 �
 
 - #### 병합 사용 시 준영속 엔티티인  itemParam을 통해 엔티티가 업데이트 된다. 하지만 itemParam은 여전히 영속성 엔티티가 아니며 JPA를 통해 반환값으로 엔티티를 전달받은 mergeItem은 영속성 엔티티이다.
 
-![merge entity context](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.24/merge entity context.png)
+![merge entity context](https://user-images.githubusercontent.com/79822924/152636399-68ab98db-8cd1-4aab-87bd-ff3ed0f75502.png)
 
 1. #### 캐시에 member과 같은 엔티티가 있는지 확인한다.(보통 없다)
 
