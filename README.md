@@ -71,7 +71,7 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 - home.html
 
-![practice function](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/practice function.png)
+![practice function](https://user-images.githubusercontent.com/79822924/152636309-a86801a8-afc1-4513-b46a-cbb42124cde6.png)
 
 어플리케이션의 메인 페이지로 인터넷 쇼핑몰 기능 사용을 시작할 수 있다.
 
@@ -79,9 +79,9 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 - Entity Diagram
 
-![Entity Analysis](/media/mwkang/Klevv/Spring 일지/스프링 JPA1/09.13/Entity Analysis.png)
+![Entity Analysis](https://user-images.githubusercontent.com/79822924/152636316-4f4fb5a9-12e6-4787-b0ae-7539b50a682f.png)
 
-어플리케이션의 Entity Diagram으로 Spring 코드를 기준으로 본 것이다. 각 Entity의 속성, 연관관계를 확인할 수 있다. 모두 JPA를 사용하여 H2-Database에 CRUD 방식을 적용하는 형식으로 구현하였다.
+어플리케이션의 Entity Diagram으로 Spring 도메인 관점으로 본 것이다. 각 Entity의 속성, 연관관계를 확인할 수 있다. 모두 JPA를 사용하여 H2-Database에 CRUD 방식을 적용하는 형식으로 구현하였다.
 
 
 
@@ -93,19 +93,19 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 - 회원
 
-![Spring-JPA-Shop-Member](/home/mwkang/Downloads/Spring-JPA-Shop-Member.gif)
+![Spring-JPA-Shop-Member](https://user-images.githubusercontent.com/79822924/152636287-18d47fb1-2b0a-4e4a-821a-4e0124109eda.gif)
 
 
 
 - 상품
 
-![Spring-JPA-Shop-Item](/home/mwkang/Downloads/Spring-JPA-Shop-Item.gif)
+![Spring-JPA-Shop-Item](https://user-images.githubusercontent.com/79822924/152636290-5642fbd6-8704-4b29-bc8a-e7dda875d77d.gif)
 
 
 
 - 주문
 
-![Spring-JPA-Shop-Order](/home/mwkang/Downloads/Spring-JPA-Shop-Order.gif)
+![Spring-JPA-Shop-Order](https://user-images.githubusercontent.com/79822924/152636294-fd01475f-9ae9-46d9-be24-a1691d5e5af3.gif)
 
 
 
@@ -114,3 +114,6 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 
 ## More Explanation
+
+
+[Spring-JPA-Shop-Note.md](https://github.com/mwkangit/Spring-JPA-Shop/blob/master/Spring-JPA-Shop-Note.md)
